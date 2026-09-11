@@ -34,6 +34,14 @@
     <input type="Phone" id="Phone" name="UserPhone" required placeholder="114536434">
     <br>
     <br>
+    <label for="country">Country</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="China"></option>
+        <option value="canada"></option>
+    </datalist>
+    <br><br>
     <input type="radio" id="gnd1" name="Gender" value="Male">
     <label for="gnd1">Male</label>
 
@@ -58,7 +66,10 @@
     <input type="checkbox" id="car" name="verh">
     <label for="car">I have a Car</label>
     <br><br>
-
+    <textarea name="Comment" cols="30" rows="10"> Comment Here </textarea>
+    <br><br>
+    <input type="submit" value="Send">
+    <input type="Reset" value="Reset">
 </body>
 
 </html>
