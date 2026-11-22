@@ -9,17 +9,19 @@
 
 <body>
     <h1 style="text-align: center;">SIGN UP FORM</h1>
-    <hr><hr></body></html>
+    <hr><hr></body>
     <br>
+    <!--here "for" use for telling the browser that it is relation with id="user" -->
     <label for="user">Name :</label>
+    <!--here name="user" server recive it as value like this (user = Faysal)::-->
     <input type="text" id="user" name="user" placeholder="User Name">
     <br>
     <br>
-    <label for="Email">Email :</label>
+    <label for="Email">Email :</label> 
     <input type="Email" id="Email" name="Usermail" required placeholder="User Email">
     <br>
     <br>
-    <label for="pass">Password :</label>
+    <label for="pass">Password :</label> <!--required means have to fullfilled this-->
     <input type="Password" id="pass" name="UserPassword" required placeholder="User Password 123">
     <br>
     <br>
@@ -42,11 +44,13 @@
         <option value="canada"></option>
     </datalist>
     <br><br>
+    <!--id is use for single task not for plural-->
+    <label > Gender:</label>
     <input type="radio" id="gnd1" name="Gender" value="Male">
     <label for="gnd1">Male</label>
 
     <input type="radio" id="gnd2" name="Gender" value="Female">
-    <label for="gnd2">Female</label>
+    <label for="gnd2">Female</label> <!--for this line if i click female the circle is fillup -->
     <br><br>
     <label for="date"> Date Of Birth :</label>
     <input type="date" id="date" name="dob">
@@ -62,6 +66,7 @@
     <br><br>
     <input type="checkbox" id="bike" name="verh">
     <label for="bike">I have a Bike</label>
+    <!--here lebel is written under the line because the box is placed in first-->
 
     <input type="checkbox" id="car" name="verh">
     <label for="car">I have a Car</label>
